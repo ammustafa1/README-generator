@@ -55,12 +55,6 @@ const isRequired = (input) => {
     },
     {
       type: "input",
-      name: "github",
-      message: "Enter your GitHub username! (Required)",
-      validate: isRequired,
-    },
-    {
-      type: "input",
       name: "email",
       message:
         "Provide an email address for users to contact you! (Required)",
@@ -75,7 +69,7 @@ const promptUser = () => {
 // TODO: function to write README file
 const writeToFile = (generatedMarkdown) => {
     return new Promise((resolve, reject) => {
-      fs.writeFile("./dist/README.md", generatedMarkdown, (err) => {
+      fs.writeFile("./develop/dist/README.md", generatedMarkdown, (err) => {
         if (err) {
           reject(err);
           return;
