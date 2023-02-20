@@ -11,9 +11,6 @@ and javaScript.
 ## Table of Contents
 
 [Installation](#installation)
-[License](#license)
-[Contributing](#contributing)
-[Tests](#tests)
 
 [Questions](#questions)
 
@@ -26,9 +23,6 @@ then direct the user to a series of
 questions to answer, and generate a
 README.md file.
 
-## License
-
-undefined
 
 ## Questions
 
