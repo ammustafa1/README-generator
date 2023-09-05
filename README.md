@@ -8,11 +8,10 @@ high quality README.md file. This app
 was created using primarily Node.js
 and javaScript.
 
-## Table of Contents
+## Future Development
 
-[Installation](#installation)
+I will create a reactive user interface to accept user responses to prompts, and publish a README.md file
 
-[Questions](#questions)
 
 ## Installation
 
